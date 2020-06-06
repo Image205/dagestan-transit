@@ -1,1 +1,47 @@
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
 
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "Arial", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+
+  padding: 0;
+  height: 1px;
+  width: 1px;
+
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden;
+}
+
+/*  Хедер */
+.main-header {
+  background-color: #fff;
+}
+
+.main-header__list {
+  display: flex;
+  
+  list-style: none;
+}
+
+.main-header__info-wrapper {
+  display: flex;
+}
+
+.main-header__info-block--contacts {
+  display: flex;
+  flex-direction: column;
+}
